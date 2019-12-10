@@ -1,0 +1,30 @@
+<sensor>
+	<tracker>Microsoft-v2</tracker>
+	<mode>Upper Body</mode>
+	<mirrormode>true</mirrormode>
+	<smoothing>true</smoothing>
+	<smoothingfactor>0.5</smoothingfactor>
+	<correction>0.5</correction>
+	<prediction>0.5</prediction>
+	<jitter>0.05</jitter>
+	<deviation>0.04</deviation>
+</sensor>
+<server>
+	<transformations>Global coordinates</transformations>
+	<automaticassignment>false</automaticassignment>
+	<tracker0>12</tracker0>
+	<tracker1>13</tracker1>
+	<tracker2>14</tracker2>
+	<tracker3>15</tracker3>
+</server>
+<display>
+	<showviewerwindow>true</showviewerwindow>
+	<background>Depth</background>
+	<foreground>Depth</foreground>
+	<showconsolewindow>true</showconsolewindow>
+	<movechildwindows>true</movechildwindows>
+	<savewindowlayout>false</savewindowlayout>
+</display>
+<gestures/>
+<plugins/>
+
